@@ -24,7 +24,7 @@
                     <label><strong>PASSWORD</strong></label>
                     <input type="password" placeholder="Enter Password" name="password" required><br>
                     <br>
-                    <button type="submit"><strong>LOGIN</strong></button>
+                    <button type="submit"><strong>LOGINsdhkjbcl</strong></button>
                     <br>
                 </form>
             </div>
