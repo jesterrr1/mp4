@@ -1,0 +1,3724 @@
+body{
+    background-color: #CAF0F8;
+    margin: 0;
+    overflow: hidden;
+}
+
+/*welcome-page jsp*/
+.welcome-page .container {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background: #CAF0F8;
+}
+
+.welcome-page .bg-image {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+.welcome-page .blue-box {
+    width: 954px;
+    height: 781px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background: #90E0EF;
+    border-radius: 50px;
+}
+
+.welcome-page  a.green-box {
+    width: 328px;
+    height: 142.69px;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.welcome-page .green-box-inner {
+    width: 328px;
+    height: 142.69px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background: #1B9520;
+    border-radius: 50%;
+}
+
+.welcome-page .continue-text {
+    width: 190.93px;
+    height: 39.91px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: white;
+    font-size: 36px;
+    font-family: sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.welcome-page .wellness-text {
+    left: 50%;
+    top: 64%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #0077B6;
+    font-size: 40px;
+    font-family: 'Copse';
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.welcome-page .logo-image {
+    width: 284px;
+    height: 269px;
+    left: 50%;
+    top: 46%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 45px;
+}
+
+.welcome-page .brand-text {
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #0077B6;
+    font-size: 80px;
+    font-family: 'Lato';
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.welcome-page .rectangle-footer{
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    width: 80%;
+    height: 50px;
+    background-color: #90E0EF;
+    transform: translateX(-50%);
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+
+.welcome-page .rectangle-header{
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 80%;
+    height: 50px;
+    background-color: #90E0EF;
+    transform: translateX(-50%);
+    z-index: 1;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+}
+
+/*login-as jsp*/
+.login-as .container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: #CAF0F8;
+}
+
+.login-as .logo-image{
+    width: 58px;
+    height: 58px;
+    left: 15px;
+    top: 18px;
+    position: absolute;
+    border-radius: 45px;
+}
+.login-as .text-logo{
+    color: black;
+    font-size: 28px;
+    font-family: 'Patua One';
+    font-weight: 400;
+    word-wrap: break-word;
+    top: 2.5%; 
+    left: 4%;
+    position: relative;   
+}
+
+.login-as .arrow-image{
+    width: 21.89px;
+    height: 30.50px;
+    left: 45px;
+    top: 470px;
+    position: absolute;
+}
+
+.login-as .blue-box {
+    width: 954px;
+    height: 781px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background: #90E0EF;
+    border-radius: 50px;
+}
+.login-as .login-text{
+    color: #03045E;
+    font-size: 80px;
+    font-family: Lato;
+    font-weight: 700;
+    word-wrap: break-word;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-as .inner-blue-box{
+    width: 954px;
+    height: 390.5px;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background: #00B4D8;
+    border-radius: 50px;
+    
+}
+
+.login-as .divider{
+    border-left: 8px solid #CAF0F8;
+    height: 390.5px;
+    width: 1px;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-40%) translateY(-50%);
+}
+
+.login-as .guest-image{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.login-as .guest-text{
+    color: white;
+    font-size: 60px;
+    font-family: Lato;
+    font-weight: 700;
+    word-wrap: break-word;
+    position: absolute;
+    top: 80%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    
+      
+}
+
+.login-as .user-image{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 40%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.login-as .user-text{
+    color: white;
+    font-size: 60px;
+    font-family: Lato;
+    font-weight: 700;
+    word-wrap: break-word;
+    position: absolute;
+    top: 80%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+.login-as .rectangle-footer{
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    width: 80%;
+    height: 50px;
+    background-color: #90E0EF;
+    transform: translateX(-50%);
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+
+.login-as .rectangle-header{
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 80%;
+    height: 50px;
+    background-color: #90E0EF;
+    transform: translateX(-50%);
+    z-index: 1;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+}
+
+/*guest-login-confirmation jsp*/
+.guest-login-confirmation .container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: #CAF0F8;
+}
+
+.guest-login-confirmation .logo-image{
+    width: 58px;
+    height: 58px;
+    left: 15px;
+    top: 18px;
+    position: absolute;
+    border-radius: 45px;
+}
+.guest-login-confirmation .text-logo{
+    color: black;
+    font-size: 28px;
+    font-family: 'Patua One';
+    font-weight: 400;
+    word-wrap: break-word;
+    top: 2.5%; 
+    left: 4%;
+    position: absolute;   
+}
+
+.guest-login-confirmation .arrow-image{
+    width: 21.89px;
+    height: 30.50px;
+    left: 45px;
+    top: 470px;
+    position: absolute;
+}
+
+.guest-login-confirmation .blue-box {
+    width: 954px;
+    height: 781px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background: #90E0EF;
+    border-radius: 50px;
+}
+
+.guest-login-confirmation .confirmation-text{
+    color: #03045E;
+    font-size: 100px;
+    font-family: Lato;
+    font-weight: 700;
+    word-wrap: break-word;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.guest-login-confirmation  a.green-box {
+    width: 328px;
+    height: 142.69px;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.guest-login-confirmation .green-box-inner {
+    width: 328px;
+    height: 142.69px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background: #1B9520;
+    border-radius: 50%;
+}
+
+.guest-login-confirmation .continue-text {
+    width: 190.93px;
+    height: 39.91px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: white;
+    font-size: 36px;
+    font-family: sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+/*guest-browsing*/
+.guest-browsing .home-button{
+    width: 69px;
+    height: 69px;
+    border-radius: 9999px;
+    background-color: #03045E;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    z-index: 2;
+}
+
+.guest-browsing .home-icon{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    bottom: 25%;
+    right: 25%;
+    z-index: 2;
+}
+
+.guest-browsing .container{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: #CAF0F8;
+}
+
+.guest-browsing .header-blue {
+    width: 100%;
+    height: 90px;
+    top: 0px;
+    position: absolute;
+    background: #03045E;
+}
+
+.guest-browsing .logo {
+    width: 58px;
+    height: 58px;
+    left: 15px;
+    top: 18px;
+    position: absolute;
+    border-radius: 45px;
+}
+
+.guest-browsing .text-logo{
+    color: white;
+    font-size: 28px;
+    font-family: 'Patua One';
+    font-weight: 400;
+    word-wrap: break-word;
+    top: 30%; 
+    left: 4%;
+    position: absolute;   
+}
+
+.guest-browsing .search-bar {
+    width: 796px;
+    height: 59px;
+    left: 50%;
+    top: 20px;
+    position: absolute;
+    background: #D9D9D9;
+    border-radius: 10px;
+    transform: translateX(-50%);
+}
+
+.guest-browsing .search-text {
+    width: 159px;
+    height: 47px;
+    left: 2%;
+    top: 20%;
+    position: absolute;
+    color: black;
+    font-size: 32px;
+    font-family: Quattrocento;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.guest-browsing .search-dots {
+    color: black;
+    font-size: 40px;
+    font-family: Quattrocento;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.guest-browsing .search-icon{
+    left: 90%;
+    top: 5%;
+    position: absolute;
+}
+
+.guest-browsing .cart-icon{
+    left: 74%;
+    top: 25%;
+    position: absolute;
+}
+
+.guest-browsing .notifications-icon{
+    left: 77%;
+    top: 25%;
+    position: absolute;
+}
+
+.guest-browsing .profile-icon{
+    width: 58px;
+    height: 58px;
+    left: 82%;
+    top: 20%;
+    position: absolute;
+}
+
+.guest-browsing .product-text{
+    color: black;
+    font-size: 48px;
+    font-family: Archivo Black;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+
+.guest-browsing .promos-text{
+    color: black;
+    font-size: 48px;
+    font-family: Archivo Black;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+
+.guest-browsing .first-aid-icon{
+    width: 209px;
+    height: 212px;
+    right: 300px;
+    top: 18px;
+    position: absolute;
+}
+
+.guest-browsing .home-medical-icon{
+    width: 209px;
+    height: 212px;
+    right: 0;
+    top: 18px;
+    position: absolute;
+}
+
+.guest-browsing .personal-hygiene-icon{
+    width: 209px;
+    height: 212px;
+    left: 100px;
+    top: 18px;
+    position: absolute;
+}
+
+.guest-browsing .over-the-counter-icon{
+    width: 209px;
+    height: 212px;
+    left: 450px;
+    top: 18px;
+    position: absolute;
+}
+
+.guest-browsing .product-icons{
+    top: 25%;
+    left: 45%;
+    position: absolute;
+}
+
+.guest-browsing .first-aid-text{
+    color: black;
+    font-size: 24px;
+    font-family: Archivo Black;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 52%;
+    left: 23.2%;
+    transform: translate(-50%, -50%);
+}
+
+.guest-browsing .home-medical-text{
+    color: black;
+    font-size: 24px;
+    font-family: Archivo Black;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 52%;
+    left: 39.4%;
+    transform: translate(-50%, -50%);
+}
+
+.guest-browsing .personal-hygiene-text{
+    color: black;
+    font-size: 24px;
+    font-family: Archivo Black;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 52%;
+    right: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.guest-browsing .over-the-counter-text{
+    color: black;
+    font-size: 24px;
+    font-family: Archivo Black;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 52%;
+    right: 16.5%;
+    transform: translate(-50%, -50%);
+}
+
+.guest-browsing .promo-1-icon{
+    width: 200px;
+    height: 230px;
+    left: 22%;
+    bottom: 12%;
+    position: absolute;
+}
+
+.guest-browsing .promo-2-icon{
+    width: 200px;
+    height: 230px;
+    left: 34%;
+    bottom: 8%;
+    position: absolute;
+}
+
+.guest-browsing .promo-3-icon{
+    width: 200px;
+    height: 230px;
+    right: 43%;
+    bottom: 12%;
+    position: absolute;
+}
+
+.guest-browsing .promo-4-icon{
+    width: 200px;
+    height: 230px;
+    right: 31%;
+    bottom: 8%;
+    position: absolute;
+}
+
+.guest-browsing .promo-5-icon{
+    width: 200px;
+    height: 230px;
+    right: 19%;
+    bottom: 12%;
+    position: absolute;
+}
+
+/*guest-cart*/
+.guest-cart .home-button{
+    width: 69px;
+    height: 69px;
+    border-radius: 9999px;
+    background-color: #03045E;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    z-index: 2;
+    filter: contrast(0.6);
+}
+
+.guest-cart .home-icon{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    bottom: 25%;
+    right: 25%;
+    z-index: 2;
+    filter: contrast(0.6);
+}
+
+.guest-cart .container{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: #CAF0F8;
+    filter: contrast(0.5);
+}
+
+.guest-cart .header-blue {
+    width: 100%;
+    height: 90px;
+    top: 0px;
+    position: absolute;
+    background: #03045E;
+}
+
+.guest-cart .logo {
+    width: 58px;
+    height: 58px;
+    left: 15px;
+    top: 18px;
+    position: absolute;
+    border-radius: 45px;
+}
+
+.guest-cart .text-logo{
+    color: white;
+    font-size: 28px;
+    font-family: 'Patua One';
+    font-weight: 400;
+    word-wrap: break-word;
+    top: 30%; 
+    left: 4%;
+    position: absolute;   
+}
+
+.guest-cart .search-bar {
+    width: 796px;
+    height: 59px;
+    left: 50%;
+    top: 20px;
+    position: absolute;
+    background: #D9D9D9;
+    border-radius: 10px;
+    transform: translateX(-50%);
+}
+
+.guest-cart .search-text {
+    width: 159px;
+    height: 47px;
+    left: 2%;
+    top: 20%;
+    position: absolute;
+    color: black;
+    font-size: 32px;
+    font-family: Quattrocento;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.guest-cart .search-dots {
+    color: black;
+    font-size: 40px;
+    font-family: Quattrocento;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.guest-cart .search-icon{
+    left: 90%;
+    top: 5%;
+    position: absolute;
+}
+
+.guest-cart .cart-icon{
+    left: 74%;
+    top: 25%;
+    position: absolute;
+}
+
+.guest-cart .notifications-icon{
+    left: 77%;
+    top: 25%;
+    position: absolute;
+}
+
+.guest-cart .profile-icon{
+    width: 58px;
+    height: 58px;
+    left: 82%;
+    top: 20%;
+    position: absolute;
+}
+
+.guest-cart .product-text{
+    color: black;
+    font-size: 48px;
+    font-family: Archivo Black;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+
+.guest-cart .promos-text{
+    color: black;
+    font-size: 48px;
+    font-family: Archivo Black;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+
+.guest-cart .first-aid-icon{
+    width: 209px;
+    height: 212px;
+    right: 300px;
+    top: 18px;
+    position: absolute;
+}
+
+.guest-cart .home-medical-icon{
+    width: 209px;
+    height: 212px;
+    right: 0;
+    top: 18px;
+    position: absolute;
+}
+
+.guest-cart .personal-hygiene-icon{
+    width: 209px;
+    height: 212px;
+    left: 100px;
+    top: 18px;
+    position: absolute;
+}
+
+.guest-cart .over-the-counter-icon{
+    width: 209px;
+    height: 212px;
+    left: 450px;
+    top: 18px;
+    position: absolute;
+}
+
+.guest-cart .product-icons{
+    top: 25%;
+    left: 45%;
+    position: absolute;
+}
+
+.guest-cart .first-aid-text{
+    color: black;
+    font-size: 24px;
+    font-family: Archivo Black;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 52%;
+    left: 23.2%;
+    transform: translate(-50%, -50%);
+}
+
+.guest-cart .home-medical-text{
+    color: black;
+    font-size: 24px;
+    font-family: Archivo Black;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 52%;
+    left: 39.4%;
+    transform: translate(-50%, -50%);
+}
+
+.guest-cart .personal-hygiene-text{
+    color: black;
+    font-size: 24px;
+    font-family: Archivo Black;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 52%;
+    right: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.guest-cart .over-the-counter-text{
+    color: black;
+    font-size: 24px;
+    font-family: Archivo Black;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 52%;
+    right: 16.5%;
+    transform: translate(-50%, -50%);
+}
+
+.guest-cart .promo-1-icon{
+    width: 200px;
+    height: 230px;
+    left: 22%;
+    bottom: 12%;
+    position: absolute;
+}
+
+.guest-cart .promo-2-icon{
+    width: 200px;
+    height: 230px;
+    left: 34%;
+    bottom: 8%;
+    position: absolute;
+}
+
+.guest-cart .promo-3-icon{
+    width: 200px;
+    height: 230px;
+    right: 43%;
+    bottom: 12%;
+    position: absolute;
+}
+
+.guest-cart .promo-4-icon{
+    width: 200px;
+    height: 230px;
+    right: 31%;
+    bottom: 8%;
+    position: absolute;
+}
+
+.guest-cart .promo-5-icon{
+    width: 200px;
+    height: 230px;
+    right: 19%;
+    bottom: 12%;
+    position: absolute;
+}
+
+.guest-cart .cart-view{
+    width: 392px;
+    height: 403px;
+    top: 8%;
+    right: 13.5%;
+    background: #D9D9D9;
+    z-index:3;
+    position: absolute;
+}
+
+.guest-cart .blue-rectangle{
+    width: 392px;
+    height: 47px;
+    background: #0077B6;
+    z-index:2;
+    position: absolute;
+}
+
+.guest-cart .text-1{
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: Archivo Black;
+    font-weight: 400;
+    word-wrap: break-word;
+    font-weight: bold;
+    margin-top: 3%;
+}
+
+.guest-cart .x-icon{
+    width: 52px;
+    height: 44px;
+    position: absolute;
+    top: 2px;
+    left: 0;
+}
+
+.guest-cart .guest-icon{
+    width: 31px;
+    height: 28px;
+    position: absolute;
+    top: 20%;
+    right: 5%;
+}
+
+.guest-cart .text-2{
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    font-family: Archivo Black;
+    font-weight: 400;
+    word-wrap: break-word;
+    font-weight: bold;
+    top: 40%;
+    z-index: 1;
+    position: relative;
+}
+
+.guest-cart .text-3{
+    text-align: center;
+    color: black;
+    font-size: 12px;
+    font-family: Archivo Black;
+    font-weight: 400;
+    word-wrap: break-word;
+    font-weight: bold;
+    top: 35%;
+    z-index: 1;
+    position: relative;
+}
+
+.guest-cart .create-account-button{
+    width: 200px;
+    height: 36px;
+    top: 41.5%;
+    left: 25%;
+    background-color: #3498db;
+    position: relative;
+    border-radius: 10px;
+}
+
+/*guest-notifications*/
+.guest-notifications .home-button{
+    width: 69px;
+    height: 69px;
+    border-radius: 9999px;
+    background-color: #03045E;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    z-index: 2;
+    filter: contrast(0.6);
+}
+
+.guest-notifications .home-icon{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    bottom: 25%;
+    right: 25%;
+    z-index: 2;
+    filter: contrast(0.6);
+}
+
+.guest-notifications .container{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: #CAF0F8;
+    filter: contrast(0.5);
+}
+
+.guest-notifications .header-blue {
+    width: 100%;
+    height: 90px;
+    top: 0px;
+    position: absolute;
+    background: #03045E;
+}
+
+.guest-notifications .logo {
+    width: 58px;
+    height: 58px;
+    left: 15px;
+    top: 18px;
+    position: absolute;
+    border-radius: 45px;
+}
+
+.guest-notifications .text-logo{
+    color: white;
+    font-size: 28px;
+    font-family: 'Patua One';
+    font-weight: 400;
+    word-wrap: break-word;
+    top: 30%; 
+    left: 4%;
+    position: absolute;   
+}
+
+.guest-notifications .search-bar {
+    width: 796px;
+    height: 59px;
+    left: 50%;
+    top: 20px;
+    position: absolute;
+    background: #D9D9D9;
+    border-radius: 10px;
+    transform: translateX(-50%);
+}
+
+.guest-notifications .search-text {
+    width: 159px;
+    height: 47px;
+    left: 2%;
+    top: 20%;
+    position: absolute;
+    color: black;
+    font-size: 32px;
+    font-family: Quattrocento;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.guest-notifications .search-dots {
+    color: black;
+    font-size: 40px;
+    font-family: Quattrocento;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.guest-notifications .search-icon{
+    left: 90%;
+    top: 5%;
+    position: absolute;
+}
+
+.guest-notifications .cart-icon{
+    left: 74%;
+    top: 25%;
+    position: absolute;
+}
+
+.guest-notifications .notifications-icon{
+    left: 77%;
+    top: 25%;
+    position: absolute;
+}
+
+.guest-notifications .profile-icon{
+    width: 58px;
+    height: 58px;
+    left: 82%;
+    top: 20%;
+    position: absolute;
+}
+
+.guest-notifications .product-text{
+    color: black;
+    font-size: 48px;
+    font-family: Archivo Black;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+
+.guest-notifications .promos-text{
+    color: black;
+    font-size: 48px;
+    font-family: Archivo Black;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+
+.guest-notifications .first-aid-icon{
+    width: 209px;
+    height: 212px;
+    right: 300px;
+    top: 18px;
+    position: absolute;
+}
+
+.guest-notifications .home-medical-icon{
+    width: 209px;
+    height: 212px;
+    right: 0;
+    top: 18px;
+    position: absolute;
+}
+
+.guest-notifications .personal-hygiene-icon{
+    width: 209px;
+    height: 212px;
+    left: 100px;
+    top: 18px;
+    position: absolute;
+}
+
+.guest-notifications .over-the-counter-icon{
+    width: 209px;
+    height: 212px;
+    left: 450px;
+    top: 18px;
+    position: absolute;
+}
+
+.guest-notifications .product-icons{
+    top: 25%;
+    left: 45%;
+    position: absolute;
+}
+
+.guest-notifications .first-aid-text{
+    color: black;
+    font-size: 24px;
+    font-family: Archivo Black;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 52%;
+    left: 23.2%;
+    transform: translate(-50%, -50%);
+}
+
+.guest-notifications .home-medical-text{
+    color: black;
+    font-size: 24px;
+    font-family: Archivo Black;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 52%;
+    left: 39.4%;
+    transform: translate(-50%, -50%);
+}
+
+.guest-notifications .personal-hygiene-text{
+    color: black;
+    font-size: 24px;
+    font-family: Archivo Black;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 52%;
+    right: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.guest-notifications .over-the-counter-text{
+    color: black;
+    font-size: 24px;
+    font-family: Archivo Black;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 52%;
+    right: 16.5%;
+    transform: translate(-50%, -50%);
+}
+
+.guest-notifications .promo-1-icon{
+    width: 200px;
+    height: 230px;
+    left: 22%;
+    bottom: 12%;
+    position: absolute;
+}
+
+.guest-notifications .promo-2-icon{
+    width: 200px;
+    height: 230px;
+    left: 34%;
+    bottom: 8%;
+    position: absolute;
+}
+
+.guest-notifications .promo-3-icon{
+    width: 200px;
+    height: 230px;
+    right: 43%;
+    bottom: 12%;
+    position: absolute;
+}
+
+.guest-notifications .promo-4-icon{
+    width: 200px;
+    height: 230px;
+    right: 31%;
+    bottom: 8%;
+    position: absolute;
+}
+
+.guest-notifications .promo-5-icon{
+    width: 200px;
+    height: 230px;
+    right: 19%;
+    bottom: 12%;
+    position: absolute;
+}
+
+.guest-notifications .notifications-view{
+    width: 392px;
+    height: 403px;
+    top: 8%;
+    right: 11%;
+    background: #D9D9D9;
+    z-index:3;
+    position: absolute;
+}
+
+.guest-notifications .blue-rectangle{
+    width: 392px;
+    height: 47px;
+    background: #0077B6;
+    z-index:2;
+    position: absolute;
+}
+
+.guest-notifications .text-1{
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: Archivo Black;
+    font-weight: 400;
+    word-wrap: break-word;
+    font-weight: bold;
+    margin-top: 3%;
+}
+
+.guest-notifications .x-icon{
+    width: 52px;
+    height: 44px;
+    position: absolute;
+    top: 2px;
+    left: 0;
+}
+
+.guest-notifications .guest-icon{
+    width: 31px;
+    height: 28px;
+    position: absolute;
+    top: 20%;
+    right: 5%;
+}
+
+.guest-notifications .text-2{
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    font-family: Archivo Black;
+    font-weight: 400;
+    word-wrap: break-word;
+    font-weight: bold;
+    top: 40%;
+    z-index: 1;
+    position: relative;
+}
+
+.guest-notifications .text-3{
+    text-align: center;
+    color: black;
+    font-size: 12px;
+    font-family: Archivo Black;
+    font-weight: 400;
+    word-wrap: break-word;
+    font-weight: bold;
+    top: 35%;
+    z-index: 1;
+    position: relative;
+}
+
+.guest-notifications .create-account-button{
+    width: 200px;
+    height: 36px;
+    top: 41.5%;
+    left: 25%;
+    background-color: #3498db;
+    position: relative;
+    border-radius: 10px;
+}
+
+/*guest-dropdown*/
+.guest-dropdown-profile .home-button{
+    width: 69px;
+    height: 69px;
+    border-radius: 9999px;
+    background-color: #03045E;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    z-index: 2;
+    filter: contrast(0.6);
+}
+
+.guest-dropdown-profile .home-icon{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    bottom: 25%;
+    right: 25%;
+    z-index: 2;
+    filter: contrast(0.6);
+}
+
+.guest-dropdown-profile .container{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: #CAF0F8;
+    filter: contrast(0.5);
+}
+
+.guest-dropdown-profile .header-blue {
+    width: 100%;
+    height: 90px;
+    top: 0px;
+    position: absolute;
+    background: #03045E;
+}
+
+.guest-dropdown-profile .logo {
+    width: 58px;
+    height: 58px;
+    left: 15px;
+    top: 18px;
+    position: absolute;
+    border-radius: 45px;
+}
+
+.guest-dropdown-profile .text-logo{
+    color: white;
+    font-size: 28px;
+    font-family: 'Patua One';
+    font-weight: 400;
+    word-wrap: break-word;
+    top: 30%; 
+    left: 4%;
+    position: absolute;   
+}
+
+.guest-dropdown-profile .search-bar {
+    width: 796px;
+    height: 59px;
+    left: 50%;
+    top: 20px;
+    position: absolute;
+    background: #D9D9D9;
+    border-radius: 10px;
+    transform: translateX(-50%);
+}
+
+.guest-dropdown-profile .search-text {
+    width: 159px;
+    height: 47px;
+    left: 2%;
+    top: 20%;
+    position: absolute;
+    color: black;
+    font-size: 32px;
+    font-family: Quattrocento;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.guest-dropdown-profile .search-dots {
+    color: black;
+    font-size: 40px;
+    font-family: Quattrocento;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.guest-dropdown-profile .search-icon{
+    left: 90%;
+    top: 5%;
+    position: absolute;
+}
+
+.guest-dropdown-profile .cart-icon{
+    left: 74%;
+    top: 25%;
+    position: absolute;
+}
+
+.guest-dropdown-profile .notifications-icon{
+    left: 77%;
+    top: 25%;
+    position: absolute;
+}
+
+.guest-dropdown-profile .profile-icon{
+    width: 58px;
+    height: 58px;
+    left: 82%;
+    top: 20%;
+    position: absolute;
+}
+
+.guest-dropdown-profile .product-text{
+    color: black;
+    font-size: 48px;
+    font-family: Archivo Black;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+
+.guest-dropdown-profile .promos-text{
+    color: black;
+    font-size: 48px;
+    font-family: Archivo Black;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+
+.guest-dropdown-profile .first-aid-icon{
+    width: 209px;
+    height: 212px;
+    right: 300px;
+    top: 18px;
+    position: absolute;
+}
+
+.guest-dropdown-profile .home-medical-icon{
+    width: 209px;
+    height: 212px;
+    right: 0;
+    top: 18px;
+    position: absolute;
+}
+
+.guest-dropdown-profile .personal-hygiene-icon{
+    width: 209px;
+    height: 212px;
+    left: 100px;
+    top: 18px;
+    position: absolute;
+}
+
+.guest-dropdown-profile .over-the-counter-icon{
+    width: 209px;
+    height: 212px;
+    left: 450px;
+    top: 18px;
+    position: absolute;
+}
+
+.guest-dropdown-profile .product-icons{
+    top: 25%;
+    left: 45%;
+    position: absolute;
+}
+
+.guest-dropdown-profile .first-aid-text{
+    color: black;
+    font-size: 24px;
+    font-family: Archivo Black;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 52%;
+    left: 23.2%;
+    transform: translate(-50%, -50%);
+}
+
+.guest-dropdown-profile .home-medical-text{
+    color: black;
+    font-size: 24px;
+    font-family: Archivo Black;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 52%;
+    left: 39.4%;
+    transform: translate(-50%, -50%);
+}
+
+.guest-dropdown-profile .personal-hygiene-text{
+    color: black;
+    font-size: 24px;
+    font-family: Archivo Black;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 52%;
+    right: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.guest-dropdown-profile .over-the-counter-text{
+    color: black;
+    font-size: 24px;
+    font-family: Archivo Black;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 52%;
+    right: 16.5%;
+    transform: translate(-50%, -50%);
+}
+
+.guest-dropdown-profile .promo-1-icon{
+    width: 200px;
+    height: 230px;
+    left: 22%;
+    bottom: 12%;
+    position: absolute;
+}
+
+.guest-dropdown-profile .promo-2-icon{
+    width: 200px;
+    height: 230px;
+    left: 34%;
+    bottom: 8%;
+    position: absolute;
+}
+
+.guest-dropdown-profile .promo-3-icon{
+    width: 200px;
+    height: 230px;
+    right: 43%;
+    bottom: 12%;
+    position: absolute;
+}
+
+.guest-dropdown-profile .promo-4-icon{
+    width: 200px;
+    height: 230px;
+    right: 31%;
+    bottom: 8%;
+    position: absolute;
+}
+
+.guest-dropdown-profile .promo-5-icon{
+    width: 200px;
+    height: 230px;
+    right: 19%;
+    bottom: 12%;
+    position: absolute;
+}
+
+.guest-dropdown-profile .dropdown-profile-view{
+    width: 170px;
+    height: 202px;
+    top: 8%;
+    right: 11.5%;
+    background: #D9D9D9;
+    z-index:3;
+    position: absolute;
+}
+
+.guest-dropdown-profile .x-icon{
+    width: 33px;
+    height: 29px;
+    position: absolute;
+    top: 2px;
+    right: 0;
+}
+
+.guest-dropdown-profile .text-1{
+    color: #1C1B1F;
+    font-size: 32px;
+    font-family: Inika;
+    font-weight: 400;
+    word-wrap: break-word;
+    position: absolute;
+    top: 23%;
+}
+
+.guest-dropdown-profile .text-2{
+    color: #1C1B1F;
+    font-size: 34px;
+    font-family: Inika;
+    font-weight: 400;
+    word-wrap: break-word;
+    position: absolute;
+    top: 43%;
+}
+
+.guest-dropdown-profile .text-3{
+    color: #1C1B1F;
+    font-size: 34px;
+    font-family: Inika;
+    font-weight: 400;
+    word-wrap: break-word;
+    position: absolute;
+    top: 64%;
+}
+
+.guest-dropdown-profile .text-4{
+    color: #1C1B1F;
+    font-size: 34px;
+    font-family: Inika;
+    font-weight: 400;
+    word-wrap: break-word;
+    position: absolute;
+    top: 84%;
+}
+
+.guest-dropdown-profile .line-1{
+    border: 1px solid black;
+    margin: 10px 0;
+    position: relative;
+    top: 37%;
+}
+
+.guest-dropdown-profile .line-2{
+    border: 1px solid black;
+    margin: 10px 0;
+    position: relative;
+    top: 51%;
+}
+
+.guest-dropdown-profile .line-3{
+    border: 1px solid black;
+    margin: 10px 0;
+    position: relative;
+    top: 67%;
+}
+
+/*guest-account*/
+.guest-account .container{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: #CAF0F8;
+}
+
+.guest-account .header-blue {
+    width: 100%;
+    height: 90px;
+    top: 0px;
+    position: absolute;
+    background: #03045E;
+}
+
+.guest-account .logo {
+    width: 58px;
+    height: 58px;
+    left: 15px;
+    top: 18px;
+    position: absolute;
+    border-radius: 45px;
+}
+
+.guest-account .text-logo{
+    color: white;
+    font-size: 28px;
+    font-family: 'Patua One';
+    font-weight: 400;
+    word-wrap: break-word;
+    top: 30%; 
+    left: 4%;
+    position: absolute;   
+}
+
+.guest-account .search-bar {
+    width: 796px;
+    height: 59px;
+    left: 50%;
+    top: 20px;
+    position: absolute;
+    background: #D9D9D9;
+    border-radius: 10px;
+    transform: translateX(-50%);
+}
+
+.guest-account .search-text {
+    width: 159px;
+    height: 47px;
+    left: 2%;
+    top: 20%;
+    position: absolute;
+    color: black;
+    font-size: 32px;
+    font-family: Quattrocento;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.guest-account .search-dots {
+    color: black;
+    font-size: 40px;
+    font-family: Quattrocento;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.guest-account .search-icon{
+    left: 90%;
+    top: 5%;
+    position: absolute;
+}
+
+.guest-account .cart-icon{
+    left: 74%;
+    top: 25%;
+    position: absolute;
+}
+
+.guest-account .notifications-icon{
+    left: 77%;
+    top: 25%;
+    position: absolute;
+}
+
+.guest-account .profile-icon{
+    width: 58px;
+    height: 58px;
+    left: 82%;
+    top: 20%;
+    position: absolute;
+}
+
+.guest-account .arrow-image{
+    width: 21.89px;
+    height: 30.50px;
+    left: 45px;
+    top: 470px;
+    position: absolute;
+}
+
+.guest-account .guest-icon{
+    width: 309px;
+    height: 286px;
+    position: absolute;
+    top: 30%;
+    left: 42.5%;
+}
+
+.guest-account .text-3{
+    text-align: center;
+    color: black;
+    font-size: 12px;
+    font-family: Archivo Black;
+    font-weight: 400;
+    word-wrap: break-word;
+    font-weight: bold;
+    top: 35%;
+    z-index: 1;
+    position: relative;
+}
+
+.guest-account .create-account-button{
+    width: 200px;
+    height: 36px;
+    top: 41.5%;
+    left: 25%;
+    background-color: #3498db;
+    position: relative;
+    border-radius: 10px;
+}
+
+.guest-account .create-button{
+    position: absolute;
+    bottom: 35%;
+    left: 43.5%;
+}
+
+/*guest-purchases*/
+.guest-purchases .container{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: #CAF0F8;
+}
+
+.guest-purchases .header-blue {
+    width: 100%;
+    height: 90px;
+    top: 0px;
+    position: absolute;
+    background: #03045E;
+}
+
+.guest-purchases .logo {
+    width: 58px;
+    height: 58px;
+    left: 15px;
+    top: 18px;
+    position: absolute;
+    border-radius: 45px;
+}
+
+.guest-purchases .text-logo{
+    color: white;
+    font-size: 28px;
+    font-family: 'Patua One';
+    font-weight: 400;
+    word-wrap: break-word;
+    top: 30%; 
+    left: 4%;
+    position: absolute;   
+}
+
+.guest-purchases .search-bar {
+    width: 796px;
+    height: 59px;
+    left: 50%;
+    top: 20px;
+    position: absolute;
+    background: #D9D9D9;
+    border-radius: 10px;
+    transform: translateX(-50%);
+}
+
+.guest-purchases .search-text {
+    width: 159px;
+    height: 47px;
+    left: 2%;
+    top: 20%;
+    position: absolute;
+    color: black;
+    font-size: 32px;
+    font-family: Quattrocento;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.guest-purchases .search-dots {
+    color: black;
+    font-size: 40px;
+    font-family: Quattrocento;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.guest-purchases .search-icon{
+    left: 90%;
+    top: 5%;
+    position: absolute;
+}
+
+.guest-purchases .cart-icon{
+    left: 74%;
+    top: 25%;
+    position: absolute;
+}
+
+.guest-purchases .notifications-icon{
+    left: 77%;
+    top: 25%;
+    position: absolute;
+}
+
+.guest-purchases .profile-icon{
+    width: 58px;
+    height: 58px;
+    left: 82%;
+    top: 20%;
+    position: absolute;
+}
+
+.guest-purchases .arrow-image{
+    width: 21.89px;
+    height: 30.50px;
+    left: 45px;
+    top: 470px;
+    position: absolute;
+}
+
+.guest-purchases .no-cart-icon{
+    width: 306px;
+    height: 277px;
+    position: absolute;
+    top: 30%;
+    left: 43%;
+}
+
+.guest-purchases .text-3{
+    text-align: center;
+    color: black;
+    font-size: 12px;
+    font-family: Archivo Black;
+    font-weight: 400;
+    word-wrap: break-word;
+    font-weight: bold;
+    top: 35%;
+    z-index: 1;
+    position: relative;
+}
+
+.guest-purchases .create-account-button{
+    width: 200px;
+    height: 36px;
+    top: 41.5%;
+    left: 25%;
+    background-color: #3498db;
+    position: relative;
+    border-radius: 10px;
+}
+
+.guest-purchases .create-button{
+    position: absolute;
+    bottom: 35%;
+    left: 43.5%;
+}
+
+/*guest-about-us*/
+.guest-about-us .container{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: #CAF0F8;
+}
+
+.guest-about-us .header-blue {
+    width: 100%;
+    height: 90px;
+    top: 0px;
+    position: absolute;
+    background: #03045E;
+}
+
+.guest-about-us .logo {
+    width: 58px;
+    height: 58px;
+    left: 15px;
+    top: 18px;
+    position: absolute;
+    border-radius: 45px;
+}
+
+.guest-about-us .text-logo{
+    color: white;
+    font-size: 28px;
+    font-family: 'Patua One';
+    font-weight: 400;
+    word-wrap: break-word;
+    top: 30%; 
+    left: 4%;
+    position: absolute;   
+}
+
+.guest-about-us .search-bar {
+    width: 796px;
+    height: 59px;
+    left: 50%;
+    top: 20px;
+    position: absolute;
+    background: #D9D9D9;
+    border-radius: 10px;
+    transform: translateX(-50%);
+}
+
+.guest-about-us .search-text {
+    width: 159px;
+    height: 47px;
+    left: 2%;
+    top: 20%;
+    position: absolute;
+    color: black;
+    font-size: 32px;
+    font-family: Quattrocento;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.guest-about-us .search-dots {
+    color: black;
+    font-size: 40px;
+    font-family: Quattrocento;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.guest-about-us .search-icon{
+    left: 90%;
+    top: 5%;
+    position: absolute;
+}
+
+.guest-about-us .cart-icon{
+    left: 74%;
+    top: 25%;
+    position: absolute;
+}
+
+.guest-about-us .notifications-icon{
+    left: 77%;
+    top: 25%;
+    position: absolute;
+}
+
+.guest-about-us .profile-icon{
+    width: 58px;
+    height: 58px;
+    left: 82%;
+    top: 20%;
+    position: absolute;
+}
+
+.guest-about-us .arrow-image{
+    width: 21.89px;
+    height: 30.50px;
+    left: 45px;
+    top: 470px;
+    position: absolute;
+    z-index: 2;
+}
+
+.guest-about-us .text-1{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-family: Archivo Black;
+    font-weight: 400;
+    word-wrap: break-word;
+    font-weight: bold;
+    top: 16%;
+    position: relative;
+}
+
+.guest-about-us .text-2{
+    width: 1097px;
+    height: 229px;
+    text-align: justify;
+    color: black;
+    font-size: 30px;
+    font-family: Lato;
+    word-wrap: break-word;
+    top: 18%;
+    left: 20%;
+    position: relative;
+}
+
+.guest-about-us .text-3{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-family: Archivo Black;
+    font-weight: 400;
+    word-wrap: break-word;
+    font-weight: bold;
+    top: 20%;
+    position: relative;
+}
+
+.guest-about-us .image-1{
+    position: absolute;
+    bottom: 24%;
+    left: 24%;
+}
+
+.guest-about-us .image-2{
+    position: absolute;
+    bottom: 24%;
+    left: 44%;
+}
+
+.guest-about-us .image-3{
+    position: absolute;
+    bottom: 24%;
+    right: 24%;
+}
+
+.guest-about-us .text-4{
+    color: black;
+    font-size: 30px;
+    font-family: Arvo;
+    font-weight: 400;
+    word-wrap: break-word;
+    position: absolute;
+    bottom: 20%;
+    left: 24.5%;
+}
+
+.guest-about-us .text-5{
+    color: black;
+    font-size: 30px;
+    font-family: Arvo;
+    font-weight: 400;
+    word-wrap: break-word;
+    position: absolute;
+    bottom: 20%;
+    left: 44.5%;
+}
+
+.guest-about-us .text-6{
+    color: black;
+    font-size: 30px;
+    font-family: Arvo;
+    font-weight: 400;
+    word-wrap: break-word;
+    position: absolute;
+    bottom: 20%;
+    right: 24%;
+}
+
+/*create-account*/
+
+/*user-login*/
+.user-login .logo-image{
+    width: 58px;
+    height: 58px;
+    left: 15px;
+    top: 18px;
+    position: absolute;
+    border-radius: 45px;
+}
+.user-login .text-logo{
+    color: black;
+    font-size: 28px;
+    font-family: 'Patua One';
+    font-weight: 400;
+    word-wrap: break-word;
+    top: 3%; 
+    left: 4%;
+    position: absolute;   
+}
+
+
+/*user-error*/
+
+/*user-login-2*/
+
+/*user-login-confirmation*/
+.user-login-confirmation .container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: #CAF0F8;
+}
+
+.user-login-confirmation .logo-image{
+    width: 58px;
+    height: 58px;
+    left: 15px;
+    top: 18px;
+    position: absolute;
+    border-radius: 45px;
+}
+.user-login-confirmation .text-logo{
+    color: black;
+    font-size: 28px;
+    font-family: 'Patua One';
+    font-weight: 400;
+    word-wrap: break-word;
+    top: 2.5%; 
+    left: 4%;
+    position: absolute;
+    
+}
+
+.user-login-confirmation .arrow-image{
+    width: 21.89px;
+    height: 30.50px;
+    left: 45px;
+    top: 470px;
+    position: absolute;
+}
+
+.user-login-confirmation .blue-box {
+    width: 954px;
+    height: 781px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background: #90E0EF;
+    border-radius: 50px;
+}
+
+.user-login-confirmation .confirmation-text{
+    color: #03045E;
+    font-size: 100px;
+    font-family: Lato;
+    font-weight: 700;
+    word-wrap: break-word;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.user-login-confirmation  a.green-box {
+    width: 328px;
+    height: 142.69px;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.user-login-confirmation .green-box-inner {
+    width: 328px;
+    height: 142.69px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background: #1B9520;
+    border-radius: 50%;
+}
+
+.user-login-confirmation .continue-text {
+    width: 190.93px;
+    height: 39.91px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: white;
+    font-size: 36px;
+    font-family: sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+/*user-browsing*/
+.user-browsing .home-button{
+    width: 69px;
+    height: 69px;
+    border-radius: 9999px;
+    background-color: #03045E;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    z-index: 2;
+}
+
+.user-browsing .home-icon{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    bottom: 25%;
+    right: 25%;
+    z-index: 2;
+}
+
+.user-browsing .container{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: #CAF0F8;
+}
+
+.user-browsing .header-blue {
+    width: 100%;
+    height: 90px;
+    top: 0px;
+    position: absolute;
+    background: #03045E;
+}
+
+.user-browsing .logo {
+    width: 58px;
+    height: 58px;
+    left: 15px;
+    top: 18px;
+    position: absolute;
+    border-radius: 45px;
+}
+
+.user-browsing .text-logo{
+    color: white;
+    font-size: 28px;
+    font-family: 'Patua One';
+    font-weight: 400;
+    word-wrap: break-word;
+    top: 30%; 
+    left: 4%;
+    position: absolute;   
+}
+
+.user-browsing .search-bar {
+    width: 796px;
+    height: 59px;
+    left: 50%;
+    top: 20px;
+    position: absolute;
+    background: #D9D9D9;
+    border-radius: 10px;
+    transform: translateX(-50%);
+}
+
+.user-browsing .search-text {
+    width: 159px;
+    height: 47px;
+    left: 2%;
+    top: 20%;
+    position: absolute;
+    color: black;
+    font-size: 32px;
+    font-family: Quattrocento;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.user-browsing .search-dots {
+    color: black;
+    font-size: 40px;
+    font-family: Quattrocento;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.user-browsing .search-icon{
+    left: 90%;
+    top: 5%;
+    position: absolute;
+}
+
+.user-browsing .cart-icon{
+    left: 74%;
+    top: 25%;
+    position: absolute;
+}
+
+.user-browsing .notifications-icon{
+    left: 77%;
+    top: 25%;
+    position: absolute;
+}
+
+.user-browsing .profile-icon{
+    width: 58px;
+    height: 58px;
+    left: 82%;
+    top: 20%;
+    position: absolute;
+}
+
+.user-browsing .product-text{
+    color: black;
+    font-size: 48px;
+    font-family: Archivo Black;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+
+.user-browsing .promos-text{
+    color: black;
+    font-size: 48px;
+    font-family: Archivo Black;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+
+.user-browsing .first-aid-icon{
+    width: 209px;
+    height: 212px;
+    right: 300px;
+    top: 18px;
+    position: absolute;
+}
+
+.user-browsing .home-medical-icon{
+    width: 209px;
+    height: 212px;
+    right: 0;
+    top: 18px;
+    position: absolute;
+}
+
+.user-browsing .personal-hygiene-icon{
+    width: 209px;
+    height: 212px;
+    left: 100px;
+    top: 18px;
+    position: absolute;
+}
+
+.user-browsing .over-the-counter-icon{
+    width: 209px;
+    height: 212px;
+    left: 450px;
+    top: 18px;
+    position: absolute;
+}
+
+.user-browsing .product-icons{
+    top: 25%;
+    left: 45%;
+    position: absolute;
+}
+
+.user-browsing .first-aid-text{
+    color: black;
+    font-size: 24px;
+    font-family: Archivo Black;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 52%;
+    left: 23.2%;
+    transform: translate(-50%, -50%);
+}
+
+.user-browsing .home-medical-text{
+    color: black;
+    font-size: 24px;
+    font-family: Archivo Black;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 52%;
+    left: 39.4%;
+    transform: translate(-50%, -50%);
+}
+
+.user-browsing .personal-hygiene-text{
+    color: black;
+    font-size: 24px;
+    font-family: Archivo Black;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 52%;
+    right: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.user-browsing .over-the-counter-text{
+    color: black;
+    font-size: 24px;
+    font-family: Archivo Black;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 52%;
+    right: 16.5%;
+    transform: translate(-50%, -50%);
+}
+
+.user-browsing .promo-1-icon{
+    width: 200px;
+    height: 230px;
+    left: 22%;
+    bottom: 12%;
+    position: absolute;
+}
+
+.user-browsing .promo-2-icon{
+    width: 200px;
+    height: 230px;
+    left: 34%;
+    bottom: 8%;
+    position: absolute;
+}
+
+.user-browsing .promo-3-icon{
+    width: 200px;
+    height: 230px;
+    right: 43%;
+    bottom: 12%;
+    position: absolute;
+}
+
+.user-browsing .promo-4-icon{
+    width: 200px;
+    height: 230px;
+    right: 31%;
+    bottom: 8%;
+    position: absolute;
+}
+
+.user-browsing .promo-5-icon{
+    width: 200px;
+    height: 230px;
+    right: 19%;
+    bottom: 12%;
+    position: absolute;
+}
+
+/*user-notification*/
+.user-notification .home-button{
+    width: 69px;
+    height: 69px;
+    border-radius: 9999px;
+    background-color: #03045E;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    z-index: 2;
+    filter: contrast(0.5);
+}
+
+.user-notification .home-icon{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    bottom: 25%;
+    right: 25%;
+    z-index: 2;
+}
+
+.user-notification .container{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: #CAF0F8;
+    filter: contrast(0.5);
+}
+
+.user-notification .header-blue {
+    width: 100%;
+    height: 90px;
+    top: 0px;
+    position: absolute;
+    background: #03045E;
+}
+
+.user-notification .logo {
+    width: 58px;
+    height: 58px;
+    left: 15px;
+    top: 18px;
+    position: absolute;
+    border-radius: 45px;
+}
+
+.user-notification .text-logo{
+    color: white;
+    font-size: 28px;
+    font-family: 'Patua One';
+    font-weight: 400;
+    word-wrap: break-word;
+    top: 30%; 
+    left: 4%;
+    position: absolute;   
+}
+
+.user-notification .search-bar {
+    width: 796px;
+    height: 59px;
+    left: 50%;
+    top: 20px;
+    position: absolute;
+    background: #D9D9D9;
+    border-radius: 10px;
+    transform: translateX(-50%);
+}
+
+.user-notification .search-text {
+    width: 159px;
+    height: 47px;
+    left: 2%;
+    top: 20%;
+    position: absolute;
+    color: black;
+    font-size: 32px;
+    font-family: Quattrocento;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.user-notification .search-dots {
+    color: black;
+    font-size: 40px;
+    font-family: Quattrocento;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.user-notification .search-icon{
+    left: 90%;
+    top: 5%;
+    position: absolute;
+}
+
+.user-notification .cart-icon{
+    left: 74%;
+    top: 25%;
+    position: absolute;
+}
+
+.user-notification .notifications-icon{
+    left: 77%;
+    top: 25%;
+    position: absolute;
+}
+
+.user-notification .profile-icon{
+    width: 58px;
+    height: 58px;
+    left: 82%;
+    top: 20%;
+    position: absolute;
+}
+
+.user-notification .product-text{
+    color: black;
+    font-size: 48px;
+    font-family: Archivo Black;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+
+.user-notification .promos-text{
+    color: black;
+    font-size: 48px;
+    font-family: Archivo Black;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+
+.user-notification .first-aid-icon{
+    width: 209px;
+    height: 212px;
+    right: 300px;
+    top: 18px;
+    position: absolute;
+}
+
+.user-notification .home-medical-icon{
+    width: 209px;
+    height: 212px;
+    right: 0;
+    top: 18px;
+    position: absolute;
+}
+
+.user-notification .personal-hygiene-icon{
+    width: 209px;
+    height: 212px;
+    left: 100px;
+    top: 18px;
+    position: absolute;
+}
+
+.user-notification .over-the-counter-icon{
+    width: 209px;
+    height: 212px;
+    left: 450px;
+    top: 18px;
+    position: absolute;
+}
+
+.user-notification .product-icons{
+    top: 25%;
+    left: 45%;
+    position: absolute;
+}
+
+.user-notification .first-aid-text{
+    color: black;
+    font-size: 24px;
+    font-family: Archivo Black;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 52%;
+    left: 23.2%;
+    transform: translate(-50%, -50%);
+}
+
+.user-notification .home-medical-text{
+    color: black;
+    font-size: 24px;
+    font-family: Archivo Black;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 52%;
+    left: 39.4%;
+    transform: translate(-50%, -50%);
+}
+
+.user-notification .personal-hygiene-text{
+    color: black;
+    font-size: 24px;
+    font-family: Archivo Black;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 52%;
+    right: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.user-notification .over-the-counter-text{
+    color: black;
+    font-size: 24px;
+    font-family: Archivo Black;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 52%;
+    right: 16.5%;
+    transform: translate(-50%, -50%);
+}
+
+.user-notification .promo-1-icon{
+    width: 200px;
+    height: 230px;
+    left: 22%;
+    bottom: 12%;
+    position: absolute;
+}
+
+.user-notification .promo-2-icon{
+    width: 200px;
+    height: 230px;
+    left: 34%;
+    bottom: 8%;
+    position: absolute;
+}
+
+.user-notification .promo-3-icon{
+    width: 200px;
+    height: 230px;
+    right: 43%;
+    bottom: 12%;
+    position: absolute;
+}
+
+.user-notification .promo-4-icon{
+    width: 200px;
+    height: 230px;
+    right: 31%;
+    bottom: 8%;
+    position: absolute;
+}
+
+.user-notification .promo-5-icon{
+    width: 200px;
+    height: 230px;
+    right: 19%;
+    bottom: 12%;
+    position: absolute;
+}
+
+.user-notification .notification-view{
+    width: 392px;
+    height: 403px;
+    top: 8%;
+    right: 11%;
+    background: white;
+    z-index:3;
+    position: absolute;
+}
+
+.user-notification .blue-rectangle{
+    width: 392px;
+    height: 47px;
+    background: #03045E;
+    z-index:2;
+    position: absolute;
+    top: 15%;
+}
+
+.user-notification .text-1{
+    text-align: center;
+    color: white;
+    font-size: 27px;
+    font-family: Abhaya Libre ExtraBold;
+    font-weight: 800;
+    word-wrap: break-word;
+    margin-top: 2%;
+}
+
+.user-notification .x-icon{
+    width: 52px;
+    height: 44px;
+    position: absolute;
+    top: 6px;
+    right: 0;
+}
+
+.user-notification .guest-icon{
+    width: 31px;
+    height: 28px;
+    position: absolute;
+    top: 20%;
+    right: 5%;
+}
+
+.user-notification .text-2{
+    color: black;
+    font-size: 24px;
+    font-family: Libre Caslon Text;
+    font-weight: 400;
+    word-wrap: break-word;
+    font-weight: bold;
+    top: 30%;
+    left: 20%;
+    z-index: 1;
+    position: absolute;
+}
+
+.user-notification .subtext-2{
+    color: black;
+    font-size: 18px;
+    font-family: Libre Caslon Text;
+    font-weight: 400;
+    word-wrap: break-word;
+    font-weight: bold;
+    top: 35%;
+    left: 20%;
+    z-index: 1;
+    position: absolute;
+}
+
+.user-notification .text-3{
+    color: black;
+    font-size: 24px;
+    font-family: Libre Caslon Text;
+    font-weight: 400;
+    word-wrap: break-word;
+    font-weight: bold;
+    top: 48%;
+    left: 20%;
+    z-index: 1;
+    position: absolute;
+}
+
+.user-notification .subtext-3{
+    color: black;
+    font-size: 18px;
+    font-family: Libre Caslon Text;
+    font-weight: 400;
+    word-wrap: break-word;
+    font-weight: bold;
+    top: 53%;
+    left: 20%;
+    z-index: 1;
+    position: absolute;
+}
+
+.user-notification .text-4{
+    color: black;
+    font-size: 24px;
+    font-family: Libre Caslon Text;
+    font-weight: 400;
+    word-wrap: break-word;
+    font-weight: bold;
+    top: 65%;
+    left: 20%;
+    z-index: 1;
+    position: absolute;
+}
+
+.user-notification .subtext-4{
+    color: black;
+    font-size: 18px;
+    font-family: Libre Caslon Text;
+    font-weight: 400;
+    word-wrap: break-word;
+    font-weight: bold;
+    top: 70%;
+    left: 20%;
+    z-index: 1;
+    position: absolute;
+}
+
+.user-notification .text-5{
+    color: white;
+    font-size: 24px;
+    font-family: Libre Caslon Text;
+    font-weight: 400;
+    word-wrap: break-word;
+    font-weight: bold;
+    bottom: 9%;
+    left: 39%;
+    z-index: 1;
+    position: absolute;
+}
+
+.user-notification .view-all-button{
+    width: 150px;
+    height: 36px;
+    bottom: 8%;
+    left: 31.5%;
+    background-color: #03045E;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.user-notification .sender-1-icon{
+    position: absolute;
+    top: 110px;
+    left: 3%;
+}
+
+.user-notification .sender-2-icon{
+    position: absolute;
+    top: 185px;
+    left: 3%;
+}
+.user-notification .sender-3-icon{
+    position: absolute;
+    top: 260px;
+    left: 3%;
+}
+
+.user-notification .line-1{
+    border: 1px solid black;
+    margin: 10px 0;
+    position: relative;
+    top: 160px;
+}
+
+.user-notification .line-2{
+    border: 1px solid black;
+    margin: 10px 0;
+    position: relative;
+    top: 225px;
+}
+
+.user-notification .line-3{
+    border: 1px solid black;
+    margin: 10px 0;
+    position: relative;
+    top: 280px;
+}
+
+/*user-dropdown*/
+.user-dropdown .home-button{
+    width: 69px;
+    height: 69px;
+    border-radius: 9999px;
+    background-color: #03045E;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    z-index: 2;
+    filter: contrast(0.6);
+}
+
+.user-dropdown .home-icon{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    bottom: 25%;
+    right: 25%;
+    z-index: 2;
+    filter: contrast(0.6);
+}
+
+.user-dropdown .container{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: #CAF0F8;
+    filter: contrast(0.5);
+}
+
+.user-dropdown .header-blue {
+    width: 100%;
+    height: 90px;
+    top: 0px;
+    position: absolute;
+    background: #03045E;
+}
+
+.user-dropdown .logo {
+    width: 58px;
+    height: 58px;
+    left: 15px;
+    top: 18px;
+    position: absolute;
+    border-radius: 45px;
+}
+
+.user-dropdown .text-logo{
+    color: white;
+    font-size: 28px;
+    font-family: 'Patua One';
+    font-weight: 400;
+    word-wrap: break-word;
+    top: 30%; 
+    left: 4%;
+    position: absolute;   
+}
+
+.user-dropdown .search-bar {
+    width: 796px;
+    height: 59px;
+    left: 50%;
+    top: 20px;
+    position: absolute;
+    background: #D9D9D9;
+    border-radius: 10px;
+    transform: translateX(-50%);
+}
+
+.user-dropdown .search-text {
+    width: 159px;
+    height: 47px;
+    left: 2%;
+    top: 20%;
+    position: absolute;
+    color: black;
+    font-size: 32px;
+    font-family: Quattrocento;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.user-dropdown .search-dots {
+    color: black;
+    font-size: 40px;
+    font-family: Quattrocento;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.user-dropdown .search-icon{
+    left: 90%;
+    top: 5%;
+    position: absolute;
+}
+
+.user-dropdown .cart-icon{
+    left: 74%;
+    top: 25%;
+    position: absolute;
+}
+
+.user-dropdown .notifications-icon{
+    left: 77%;
+    top: 25%;
+    position: absolute;
+}
+
+.user-dropdown .profile-icon{
+    width: 58px;
+    height: 58px;
+    left: 82%;
+    top: 20%;
+    position: absolute;
+}
+
+.user-dropdown .product-text{
+    color: black;
+    font-size: 48px;
+    font-family: Archivo Black;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+
+.user-dropdown .promos-text{
+    color: black;
+    font-size: 48px;
+    font-family: Archivo Black;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+
+.user-dropdown .first-aid-icon{
+    width: 209px;
+    height: 212px;
+    right: 300px;
+    top: 18px;
+    position: absolute;
+}
+
+.user-dropdown .home-medical-icon{
+    width: 209px;
+    height: 212px;
+    right: 0;
+    top: 18px;
+    position: absolute;
+}
+
+.user-dropdown .personal-hygiene-icon{
+    width: 209px;
+    height: 212px;
+    left: 100px;
+    top: 18px;
+    position: absolute;
+}
+
+.user-dropdown .over-the-counter-icon{
+    width: 209px;
+    height: 212px;
+    left: 450px;
+    top: 18px;
+    position: absolute;
+}
+
+.user-dropdown .product-icons{
+    top: 25%;
+    left: 45%;
+    position: absolute;
+}
+
+.user-dropdown .first-aid-text{
+    color: black;
+    font-size: 24px;
+    font-family: Archivo Black;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 52%;
+    left: 23.2%;
+    transform: translate(-50%, -50%);
+}
+
+.user-dropdown .home-medical-text{
+    color: black;
+    font-size: 24px;
+    font-family: Archivo Black;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 52%;
+    left: 39.4%;
+    transform: translate(-50%, -50%);
+}
+
+.user-dropdown .personal-hygiene-text{
+    color: black;
+    font-size: 24px;
+    font-family: Archivo Black;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 52%;
+    right: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.user-dropdown .over-the-counter-text{
+    color: black;
+    font-size: 24px;
+    font-family: Archivo Black;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 52%;
+    right: 16.5%;
+    transform: translate(-50%, -50%);
+}
+
+.user-dropdown .promo-1-icon{
+    width: 200px;
+    height: 230px;
+    left: 22%;
+    bottom: 12%;
+    position: absolute;
+}
+
+.user-dropdown .promo-2-icon{
+    width: 200px;
+    height: 230px;
+    left: 34%;
+    bottom: 8%;
+    position: absolute;
+}
+
+.user-dropdown .promo-3-icon{
+    width: 200px;
+    height: 230px;
+    right: 43%;
+    bottom: 12%;
+    position: absolute;
+}
+
+.user-dropdown .promo-4-icon{
+    width: 200px;
+    height: 230px;
+    right: 31%;
+    bottom: 8%;
+    position: absolute;
+}
+
+.user-dropdown .promo-5-icon{
+    width: 200px;
+    height: 230px;
+    right: 19%;
+    bottom: 12%;
+    position: absolute;
+}
+
+.user-dropdown .dropdown-profile-view{
+    width: 170px;
+    height: 202px;
+    top: 8%;
+    right: 11.5%;
+    background: #D9D9D9;
+    z-index:3;
+    position: absolute;
+}
+
+.user-dropdown .x-icon{
+    width: 33px;
+    height: 29px;
+    position: absolute;
+    top: 2px;
+    right: 0;
+}
+
+.user-dropdown .text-1{
+    color: #1C1B1F;
+    font-size: 32px;
+    font-family: Inika;
+    font-weight: 400;
+    word-wrap: break-word;
+    position: absolute;
+    top: 23%;
+}
+
+.user-dropdown .text-2{
+    color: #1C1B1F;
+    font-size: 34px;
+    font-family: Inika;
+    font-weight: 400;
+    word-wrap: break-word;
+    position: absolute;
+    top: 43%;
+}
+
+.user-dropdown .text-3{
+    color: #1C1B1F;
+    font-size: 34px;
+    font-family: Inika;
+    font-weight: 400;
+    word-wrap: break-word;
+    position: absolute;
+    top: 64%;
+}
+
+.user-dropdown .text-4{
+    color: #1C1B1F;
+    font-size: 34px;
+    font-family: Inika;
+    font-weight: 400;
+    word-wrap: break-word;
+    position: absolute;
+    top: 84%;
+}
+
+.user-dropdown .line-1{
+    border: 1px solid black;
+    margin: 10px 0;
+    position: relative;
+    top: 37%;
+}
+
+.user-dropdown .line-2{
+    border: 1px solid black;
+    margin: 10px 0;
+    position: relative;
+    top: 51%;
+}
+
+.user-dropdown .line-3{
+    border: 1px solid black;
+    margin: 10px 0;
+    position: relative;
+    top: 67%;
+}
+
+/*user-account*/
+.user-account .container{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: #CAF0F8;
+}
+
+.user-account .header-blue {
+    width: 100%;
+    height: 90px;
+    top: 0px;
+    position: absolute;
+    background: #03045E;
+}
+
+.user-account .logo {
+    width: 58px;
+    height: 58px;
+    left: 15px;
+    top: 18px;
+    position: absolute;
+    border-radius: 45px;
+}
+
+.user-account .text-logo{
+    color: white;
+    font-size: 28px;
+    font-family: 'Patua One';
+    font-weight: 400;
+    word-wrap: break-word;
+    top: 30%; 
+    left: 4%;
+    position: absolute;   
+}
+
+.user-account .search-bar {
+    width: 796px;
+    height: 59px;
+    left: 50%;
+    top: 20px;
+    position: absolute;
+    background: #D9D9D9;
+    border-radius: 10px;
+    transform: translateX(-50%);
+}
+
+.user-account .search-text {
+    width: 159px;
+    height: 47px;
+    left: 2%;
+    top: 20%;
+    position: absolute;
+    color: black;
+    font-size: 32px;
+    font-family: Quattrocento;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.user-account .search-dots {
+    color: black;
+    font-size: 40px;
+    font-family: Quattrocento;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.user-account .search-icon{
+    left: 90%;
+    top: 5%;
+    position: absolute;
+}
+
+.user-account .cart-icon{
+    left: 74%;
+    top: 25%;
+    position: absolute;
+}
+
+.user-account .notifications-icon{
+    left: 77%;
+    top: 25%;
+    position: absolute;
+}
+
+.user-account .profile-icon{
+    width: 58px;
+    height: 58px;
+    left: 82%;
+    top: 20%;
+    position: absolute;
+}
+
+.user-account .arrow-image{
+    width: 21.89px;
+    height: 30.50px;
+    left: 45px;
+    top: 120px;
+    position: absolute;
+}
+
+/*user-dropdown*/
+
+/*user-abbout-us*/
+.user-about-us .container{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: #CAF0F8;
+}
+
+.user-about-us .header-blue {
+    width: 100%;
+    height: 90px;
+    top: 0px;
+    position: absolute;
+    background: #03045E;
+}
+
+.user-about-us .logo {
+    width: 58px;
+    height: 58px;
+    left: 15px;
+    top: 18px;
+    position: absolute;
+    border-radius: 45px;
+}
+
+.user-about-us .text-logo{
+    color: white;
+    font-size: 28px;
+    font-family: 'Patua One';
+    font-weight: 400;
+    word-wrap: break-word;
+    top: 30%; 
+    left: 4%;
+    position: absolute;   
+}
+
+.user-about-us .search-bar {
+    width: 796px;
+    height: 59px;
+    left: 50%;
+    top: 20px;
+    position: absolute;
+    background: #D9D9D9;
+    border-radius: 10px;
+    transform: translateX(-50%);
+}
+
+.user-about-us .search-text {
+    width: 159px;
+    height: 47px;
+    left: 2%;
+    top: 20%;
+    position: absolute;
+    color: black;
+    font-size: 32px;
+    font-family: Quattrocento;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.user-about-us .search-dots {
+    color: black;
+    font-size: 40px;
+    font-family: Quattrocento;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.user-about-us .search-icon{
+    left: 90%;
+    top: 5%;
+    position: absolute;
+}
+
+.user-about-us .cart-icon{
+    left: 74%;
+    top: 25%;
+    position: absolute;
+}
+
+.user-about-us .notifications-icon{
+    left: 77%;
+    top: 25%;
+    position: absolute;
+}
+
+.user-about-us .profile-icon{
+    width: 58px;
+    height: 58px;
+    left: 82%;
+    top: 20%;
+    position: absolute;
+}
+
+.user-about-us .arrow-image{
+    width: 21.89px;
+    height: 30.50px;
+    left: 45px;
+    top: 470px;
+    position: absolute;
+    z-index: 2;
+}
+
+.user-about-us .text-1{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-family: Archivo Black;
+    font-weight: 400;
+    word-wrap: break-word;
+    font-weight: bold;
+    top: 16%;
+    position: relative;
+}
+
+.user-about-us .text-2{
+    width: 1097px;
+    height: 229px;
+    text-align: justify;
+    color: black;
+    font-size: 30px;
+    font-family: Lato;
+    word-wrap: break-word;
+    top: 18%;
+    left: 20%;
+    position: relative;
+}
+
+.user-about-us .text-3{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-family: Archivo Black;
+    font-weight: 400;
+    word-wrap: break-word;
+    font-weight: bold;
+    top: 20%;
+    position: relative;
+}
+
+.user-about-us .image-1{
+    position: absolute;
+    bottom: 24%;
+    left: 24%;
+}
+
+.user-about-us .image-2{
+    position: absolute;
+    bottom: 24%;
+    left: 44%;
+}
+
+.user-about-us .image-3{
+    position: absolute;
+    bottom: 24%;
+    right: 24%;
+}
+
+.user-about-us .text-4{
+    color: black;
+    font-size: 30px;
+    font-family: Arvo;
+    font-weight: 400;
+    word-wrap: break-word;
+    position: absolute;
+    bottom: 20%;
+    left: 24.5%;
+}
+
+.user-about-us .text-5{
+    color: black;
+    font-size: 30px;
+    font-family: Arvo;
+    font-weight: 400;
+    word-wrap: break-word;
+    position: absolute;
+    bottom: 20%;
+    left: 44.5%;
+}
+
+.user-about-us .text-6{
+    color: black;
+    font-size: 30px;
+    font-family: Arvo;
+    font-weight: 400;
+    word-wrap: break-word;
+    position: absolute;
+    bottom: 20%;
+    right: 24%;
+}
+/*prescription-call*/
+
+/*prescription-concerns-proof*/
+
+/*prescription-page-submit*/
+
+/*coins*/
+
+/*over-the-counter*/
+
+/*personal-hygiene*/
+
+/*home-medical*/
+
+/*first-aid*/
+
+/*add-to-cart-1*/
+
+/*cart-1*/
+
+/*cart-2*/
+
+/*use-coins-2*/
+
+/*checkout-1*/
+
+/*checkout-2*/
+
+/*order-successful*/
+
+
+
+
+
